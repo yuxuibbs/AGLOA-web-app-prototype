@@ -11,73 +11,85 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="js/navbar.js"></script>
+    <script src="js/footer.js"></script>
+    
     <title>Prototype AGLOA Nationals App</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-            <div class="pull-left">
-                <img src="img/cropped-AGLOA_logo_header_133x90.png" alt="">
-            </div>
-            <div id="title" class="pull-right">
-                <h1 class="site-title">
-                    <a href="https://www.agloa.org/" rel="home">Academic Games Leagues of America</a>
-                </h1>
-                <div class="site-description">
-                    <ul>
-                        <li>
-                            AGLOA | Promoting Excellence Through Academic Competition
-                        </li>
-                        <li class="facebook">
-                            <a href="http://facebook.com/AGLOA" title="Academic Games Leagues of America on Facebook" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                        </li>
-                        <li class="twitter">
-                            <a href="http://twitter.com/AGLOA" title="Academic Games Leagues of America on Twitter" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                        </li>
-                        <li class="youtube">
-                            <a href="http://youtube.com/AGLOAczeller" title="Academic Games Leagues of America on YouTube" target="_blank"><i class="fab fa-youtube-square"></i></a>
-                        </li>
-                        <li class="instagram">
-                            <a href="http://instagram.com/AGLOA" title="Academic Games Leagues of America on Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li class="email">
-                            <a href="mailto:info@agloa.org" title="Academic Games Leagues of America on Email" target="_blank"><i class="fa fa-envelope"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="schedule.html">Schedule</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="map.html">Map</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="player_info.html">Player Information<span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div id="insertNavBar"></div>
+    <br/>
     <container>
-        <h1>2019 AGLOA National Tournament</h1>
+        <h2>2019 AGLOA National Tournament</h2>
+
+        <p><strong>Player Name: </strong>Random Jane Doe</p>
+        <p><strong>Player ID: </strong>1938429</p>
+        <p><strong>Division: </strong>M</p>
+        <p><strong>Geo Code: </strong>AA</p>
+        <p><strong>Team Name: </strong>Fake Team Name</p>
+        <p><strong>Team Number: </strong>2034981</p>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Game</th>
+                    <th scope="col">Section Letter</th>
+                    <th scope="col">Table Number</th>
+                    <th scope="col">Player Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Equations</th>
+                    <td>A</td>
+                    <td>IV</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th scope="row">On-Sets</th>
+                    <td>E</td>
+                    <td>I</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <th scope="row">LinguiSHTIK</th>
+                    <td>B</td>
+                    <td>II</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th scope="row">Wff 'N Proof</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <th scope="row">Presidents</th>
+                    <td>-</td>
+                    <td>45</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <th scope="row">Propaganda</th>
+                    <td>-</td>
+                    <td>36</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <th scope="row">Current Events</th>
+                    <td>-</td>
+                    <td>12</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <th scope="row">Theme</th>
+                    <td>-</td>
+                    <td>5</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
 
     </container>
-
-    <footer>
-        <hr>     
-        <img src="img/AGLOA_logo_footer_44x30.png" alt="Academic Games Leagues of America footer" /></a> Copyright © 2019 <a href="https://www.agloa.org/" title="Academic Games Leagues of America" ><span>Academic Games Leagues of America</span></a>. All Rights Reserved.
-    </footer>
+    <div id="insertFooter"></div>
 </body>
 </html>
