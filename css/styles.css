@@ -11,33 +11,55 @@ h2 {
     text-align: center;
 }
 
-nav {
+.navbar {
     display: inline-block;
 }
 
-nav .container {
+.navbar .container {
     max-width: 100%;
 }
 
-nav .site-title {
-    font: normal 45px 'Cookie', Arial, sans-serif;
+.navbar .site-title {
+    font: bold 32px Arial, Helvetica, sans-serif;
 }
 
-nav .site-description {
+.navbar .site-description {
     font: 14px Arial, Helvetica, sans-serif;
     color: white;
-    padding: 0 0 20px 20px;
 }
 
-nav ul {
+.navbar ul {
     padding: 0;
     margin: 0;
     vertical-align: center;
 }
 
-nav li {
+.navbar li {
     display: inline-block;
 }
+
+.navbar a {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a img {
+    margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar a {
+        margin: 0 auto;
+    }
+    .navbar h1 {
+        text-align: center;
+    }
+    .navbar .site-description {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
 
 img {
     display: block;
@@ -47,3 +69,6 @@ img {
 footer img {
     display: inline-block;
 }
+
+
+
